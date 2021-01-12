@@ -1,0 +1,205 @@
+.navbar{
+    margin:0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.name{
+    font-size: 20px;
+    padding: 9px;
+}
+
+.title{
+    margin: 0;
+}
+
+.form{
+    width: 30%;
+}
+
+.input{
+    padding: 8px;
+    width: 60%;
+}
+
+.input:focus{
+    outline: none;
+}
+
+
+.Buscar{
+    padding: 8px;
+    background-color: black;
+    color: white;
+
+}
+
+.Buscar:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.bottons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.options{
+    padding: 10px;
+    margin: 0 0 0 100px;
+}
+
+.options > li{
+    float:left;
+}
+
+.element:hover{
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+.sub{
+    display: none;
+    position: absolute;
+    
+}
+
+.options li:hover > ul{
+
+    display: block;
+
+}
+
+.list{
+    border: 1px solid white;
+}
+
+
+
+.logSign{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border: 1px solid white;
+}
+
+.logSign:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.logSign:focus{
+
+    outline: none;
+
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.userCard{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.spanRole{
+    margin:0 5px;
+    color: whitesmoke;
+    padding: 5px 8px;
+}
+
+
+
+.imageProfile{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(112, 87, 255);
+    border-radius: 50px;
+    margin:7px;
+}
+
+.logout{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border: 1px solid white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.logout:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.logout:focus{
+
+    outline: none;
+
+}
+
+.add{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border: 1px solid white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.add:focus{
+
+    outline: none;
+
+}
+
+.cart{
+    width: 30px;
+    height: 45px;
+    display: flex;
+    margin: 5px 8px 5px 5px;
+}
+
+.cartIcon{
+    width: 30px;
+}

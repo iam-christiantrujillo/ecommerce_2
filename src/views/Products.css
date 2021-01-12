@@ -1,0 +1,41 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: rgb(243, 243, 243);
+   
+    cursor: pointer;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 200px;
+    height: auto;
+    max-height: 250px;
+   
+}
+
+.description{
+    margin:10px;
+}
+

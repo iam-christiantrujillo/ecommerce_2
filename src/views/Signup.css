@@ -1,0 +1,58 @@
+.sign{
+  display: flex;
+  justify-content: center;
+}
+
+.signup{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+
+.formPart{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+}
+
+.labelForm{
+    margin: 10px 0;
+}
+
+.form-fname{
+    height: 30px;
+    padding: 0 10px;
+}
+
+.form-fname:focus{
+    outline: none;
+}
+
+.birth{
+    width: 200px;
+}
+
+
+.button_submit{
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border: 1px solid white;
+    margin: 30px 0 10px 0;
+}
+
+.button_submit:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.button_submit:focus{
+    outline: none;
+}
